@@ -60,6 +60,7 @@ const VueLineClamp = {
       } else {
         let link = window.document.createElement('style');
         link.id = 'vue-line-clamp';
+        link.setAttribute('nonce', 'bd5af2d76fe645c3d5d65f52a60f7a52')
         link.appendChild(window.document.createTextNode(rule));
         window.document.head.appendChild(link);
       }
